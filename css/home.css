@@ -1,0 +1,145 @@
+@import url('./glopal.css');
+
+.main-wrapper, body {
+    background-color: #F8F8F8;
+}
+.hero-section-wrapper {
+    background-image: url(../images/automotive-background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%; 
+}
+.hero-section-wrapper {
+    display: flex;
+    align-items: center;  
+}
+.hero-section-content {
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.hero-section-content h1 {
+    font-size: 3rem;
+    color: white;
+    padding: 10px 0;
+}
+.hero-section-content h2 {
+    font-size: 2rem;
+    color: white;
+    padding: 10px 0;
+}
+.hero-section-btn {
+    background-color: #C89B3C;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.hero-section-btn:hover {
+    cursor: pointer;
+    border: solid 1px #C89B3C ;
+}
+.info-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.info-section {
+    padding: 20px 0;
+}
+.info-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    gap: 30px; 
+}
+.info-card {
+    border: solid 2px rgb(192, 187, 187);
+    width: 200px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.card-title {
+    background-color: rgb(25, 24, 24);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0 ;
+}
+.card-title h3 {
+    padding: 30px 40px;
+    text-align: center;
+    color: white;
+}
+.card-content p {
+    padding: 20px 10px;
+    font-size: 1rem; 
+    color: #333;
+}
+.about-section-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.about-section {
+    width: 890px;
+}
+.about-section p {
+    font-size: 1rem; 
+    color: #333;
+}
+.about-section figure {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid rgb(25, 24, 24);
+}
+.about-section figure figcaption {
+    background-color: rgb(25, 24, 24);
+    color:rgb(235, 234, 234) ;
+    padding: 5px;
+}
+.about-section figure:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 768px) {
+    
+    .hero-section-content {
+        margin: 0; 
+        padding: 20px;
+    }
+    .hero-section-content h1 {
+        font-size: 2rem; 
+    }
+
+    .hero-section-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section-btn {
+        padding: 15px;
+    }
+
+    .info-card {
+        width: 80%; 
+    }
+
+    .about-section {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .about-section p {
+        font-size: 0.9rem;
+    }  
+}

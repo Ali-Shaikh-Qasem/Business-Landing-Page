@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+.main-header {
+    background-color: #111010;
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.header-title {
+    color: rgb(221, 217, 217);
+}
+.main-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.main-nav-item a {
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+}
+.main-nav-item a:hover {
+    border-bottom: solid rgb(221, 217, 217) 2px;
+}
+.main-footer {
+    width: 100%;
+    background-color: #111010;
+}
+.main-footer p {
+    color: rgb(181, 177, 177);
+    text-align: center;
+    padding: 20px 0;
+}

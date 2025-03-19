@@ -1,0 +1,125 @@
+@import url('./glopal.css');
+.contact-us-header {
+    width: 100%;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e, #f5af19);
+}
+.contact-us-header h1 {
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2rem;
+}
+.contact-main-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.contact-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e, #f5af19);
+    border-radius: 30px;
+    padding: 70px;
+    max-width: 650px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-name, .form-email, .form-message {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    color: rgb(221, 217, 217); 
+}
+input {
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1e1e2e;
+    color: #ffffff;
+    border: 1px solid rgb(100, 100, 100);
+}
+textarea {
+    border-radius: 10px;
+    background-color: #1e1e2e;
+    border: 1px solid rgb(100, 100, 100);
+    color: #ffffff;
+    padding: 5px;
+}
+.form-btn {
+    text-align: center;
+}
+.form-btn button {
+    padding: 8px 45px;
+    background-color: #C89B3C;
+    border-radius: 15px;
+    font-weight: 700;
+    border: none;
+}
+.form-btn button:hover {
+    cursor: pointer;
+    background-color:#93680c ;
+}
+.form-title {
+    text-align: center;
+}
+.form-title h2 {
+    color:rgb(221, 217, 217) ;
+}
+.contact-details h2, h3, p, address {
+    color: rgb(221, 217, 217) ;
+}
+@media (max-width: 768px) {
+    .contact-form-container {
+        grid-template-columns: 1fr ;
+        width: 70%;
+    }
+    .contact-us-header h1 {
+        font-size: 1.8rem;
+        padding: 30px 0; 
+    }
+
+    .form-title h2 {
+        font-size: 1.4rem; 
+    }
+
+    .contact-details h2 {
+        font-size: 1.3rem;
+    }
+
+    .contact-details h3 {
+        font-size: 1.1rem;
+    }
+
+    .contact-details p, .contact-details address {
+        font-size: 0.9rem;
+    }
+
+    label {
+        font-size: 0.9rem; 
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-form-container {
+        grid-template-columns: 1fr 1fr ;
+        width: 80%;
+    }
+}
+  
